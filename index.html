@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הוויזואליזציה הראשונה שלי</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl; /* כיוון מימין לשמאל */
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #218838;
+        }
+        .tableau-container {
+            width: 100%;
+            height: 600px; /* גובה ברירת מחדל, ניתן לשנות */
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .tableau-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>הוויזואליזציה הראשונה שלי</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>רקע הפרויקט</h2>
+            <p>
+                פרויקט זה מסמן את הצעד הראשון שלי בעולם הוויזואליזציה של נתונים באמצעות Tableau.
+                מטרתו העיקרית היא להפוך מערך נתונים מורכב לתובנות ברורות ונגישות באמצעות גרפים ודיאגרמות אינטראקטיביות.
+                במסגרת פרויקט זה, חקרתי נתונים פיקטיביים של מכירות מוצרים ברחבי העולם במהלך שנת 2024.
+                התמקדתי בזיהוי מגמות מכירה, ביצועי מוצרים שונים באזורים גיאוגרפיים שונים, וניתוח פלחי לקוחות מרכזיים.
+            </p>
+        </section>
+
+        <section>
+            <h2>מטרות הוויזואליזציה</h2>
+            <ul>
+                <li>הצגת התפלגות המכירות לפי אזור גיאוגרפי.</li>
+                <li>השוואת ביצועי מכירות של קטגוריות מוצרים שונות.</li>
+                <li>זיהוי החודשים עם נפח המכירות הגבוה ביותר והנמוך ביותר.</li>
+                <li>הבנת הקשר בין סוג הלקוח (עסקי/פרטי) למוצרים הנרכשים.</li>
+                <li>מתן אפשרות אינטראקציה למשתמשים לחקור את הנתונים באופן עצמאי.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>הנתונים שנותחו</h2>
+            <p>
+                מערך הנתונים כלל מידע על עסקאות מכירה שונות, כולל:
+            </p>
+            <ul>
+                <li>תאריך המכירה</li>
+                <li>שם המוצר</li>
+                <li>קטגוריית המוצר</li>
+                <li>כמות שנמכרה</li>
+                <li>מחיר יחידה</li>
+                <li>סך העסקה</li>
+                <li>אזור גיאוגרפי (צפון, דרום, מרכז, אירופה, אסיה)</li>
+                <li>סוג לקוח (עסקי, פרטי)</li>
+            </ul>
+            <p>
+                נתונים אלו נוצרו באופן מלאכותי לצורך הדגמת יכולות הוויזואליזציה ב-Tableau.
+            </p>
+        </section>
+
+        <section>
+            <h2>הוויזואליזציה ב-Tableau</h2>
+            <p>
+                הוויזואליזציה המרכזית של פרויקט זה נוצרה באמצעות Tableau Public ומציגה מספר דאשבורדים וגיליונות עבודה אינטראקטיביים.
+                ניתן לסנן את הנתונים לפי אזור, קטגוריית מוצר וחודש, ולראות כיצד משתנים מדדי המכירות השונים.
+                הוויזואליזציה כוללת גרפי עמודות, גרפי קו, מפות חום וטבלאות סיכום המאפשרים הבנה מעמיקה של הנתונים.
+            </p>
+            <div class="tableau-container">
+                <iframe src="https://public.tableau.com/views/MyFirstVisualization_17107980436270/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
+                        frameborder="0"
+                        allowFullScreen="true">
+                </iframe>
+            </div>
+        </section>
+
+        <div class="button-container">
+            <button class="button">לניתוח מפורט נוסף</button>
+            <button class="button">הורדת הנתונים (בקרוב)</button>
+            <button class="button">צור קשר</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 כל הזכויות שמורות</p>
+    </footer>
+</body>
+</html>
